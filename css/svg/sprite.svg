@@ -6,20 +6,52 @@
 <path fill="none" stroke="#b1b2ba" style="stroke: var(--color2, #b1b2ba)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7742" d="M21.365 3.952l-2.92-2.92-2.92 2.92"></path>
 <path fill="none" opacity="0.8" stroke="#000" style="stroke: var(--color1, #000)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.0323" d="M18.581 30.968v-26.839"></path>
 </symbol>
-<symbol id="icon-Vector-1" viewBox="0 0 31 32">
+<symbol id="emblem" viewBox="5 5 16 16">
 <path fill="#fff" style="fill: var(--color3, #fff)" d="M12.062 12.439l-2.976 1.707v5.8l1.937 1.106 1.696-0.98c0.144 0.095 0.336 0.095 0.496 0.015 0.24-0.142 0.336-0.443 0.192-0.68-0.068-0.113-0.178-0.195-0.306-0.231s-0.265-0.021-0.382 0.041c-0.16 0.095-0.256 0.269-0.24 0.442l-1.456 0.823-1.2-0.68 2.736-1.565 0.48 0.285 0.72 0.411 0.48 0.269 4.832-2.75c0.144 0.095 0.336 0.095 0.512 0 0.24-0.126 0.32-0.427 0.176-0.664-0.068-0.113-0.178-0.195-0.306-0.231s-0.265-0.021-0.382 0.041c-0.16 0.095-0.24 0.269-0.24 0.442l-3.744 2.118-0.849 0.49-3.056-1.754v-1.28l2.976 1.707 0.32-0.174 4.848-2.766v-0.19l-0.080-1.897-1.696-0.963c0-0.095-0.032-0.174-0.064-0.253-0.049-0.086-0.123-0.156-0.212-0.2s-0.19-0.062-0.289-0.050c-0.099 0.012-0.193 0.053-0.268 0.117s-0.131 0.149-0.157 0.244c-0.027 0.095-0.025 0.196 0.007 0.29s0.090 0.176 0.168 0.237c0.079 0.061 0.174 0.097 0.273 0.105s0.199-0.014 0.286-0.063v-0.015l1.472 0.838 0.048 1.328-2.8-1.596v-1.851l-4.816-2.75c0-0.095-0.032-0.174-0.080-0.253-0.128-0.237-0.432-0.316-0.672-0.19-0.117 0.065-0.202 0.173-0.238 0.301s-0.019 0.264 0.046 0.379c0.066 0.115 0.175 0.2 0.304 0.236s0.267 0.019 0.384-0.046v-0.015l3.008 1.723 1.583 0.9v3.398l-1.040 0.601v-3.414l-5.088-2.892-1.935 1.106v1.928l-0.015 0.015c-0.224 0.126-0.32 0.427-0.176 0.664 0.068 0.113 0.178 0.195 0.306 0.231s0.265 0.021 0.382-0.041c0.057-0.033 0.107-0.077 0.147-0.129s0.069-0.111 0.085-0.175c0.016-0.063 0.020-0.129 0.010-0.194s-0.032-0.127-0.066-0.183c-0.047-0.078-0.113-0.143-0.192-0.19v-1.643l1.136-0.647v3.114l-0.352 0.205-0.784 0.442-0.48 0.285v5.5h-0.015c-0.224 0.142-0.32 0.442-0.176 0.68 0.033 0.056 0.078 0.106 0.13 0.145s0.113 0.068 0.177 0.084c0.064 0.016 0.131 0.020 0.196 0.010s0.128-0.032 0.185-0.065c0.24-0.126 0.32-0.427 0.176-0.664-0.047-0.078-0.113-0.143-0.192-0.19v-5.232l2.992-1.691 1.118 0.632zM9.566 14.43l2.736-1.565v1.28l-1.615 0.917v2.119l1.376 0.774-2.496 1.422-0.001-4.947zM13.999 14.825l-1.2-0.68v-1.833l-1.856-1.075-1.376 0.79v-2.94l4.432 2.529v3.208zM11.422 15.204l1.136-0.647 1.6 0.932 1.856-1.059v-1.565l2.575 1.454-4.431 2.45-2.736-1.565z"></path>
 </symbol>
-<symbol id="pink-arrow" viewBox="7 3 24 38">
-<path fill="#ff2b77" style="fill: var(--color4, #ff2b77)" d="M17.192 13.591c0.35-0.297 0.35-0.837 0-1.135l-6.835-5.803c-0.483-0.41-1.226-0.067-1.226 0.567v11.607c0 0.634 0.742 0.978 1.226 0.567l6.835-5.803z"></path>
+
+<symbol id="arrow-down" viewBox="0 -2 14 9" xmlns="http://www.w3.org/2000/svg">
+<path fill="none" d="M13 1L7 7L1 1" stroke="#1556EE" stroke-width="2" stroke-linecap="round"/>
 </symbol>
-<symbol id="blue-arrow" viewBox="7 3 24 38">
-<path fill="#0a6fff" style="fill: var(--color5, #0a6fff)" d="M17.17 13.596c0.359-0.298 0.359-0.848 0-1.145l-7.021-5.827c-0.485-0.402-1.219-0.058-1.219 0.573v11.654c0 0.63 0.735 0.975 1.219 0.573l7.021-5.827z"></path>
-</symbol>
+
+<svg id='pink-arrow' width="36" height="43" viewBox="4 6 36 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_2_460)">
+<path d="M23.1022 18.2623C23.5725 17.8629 23.5725 17.1371 23.1022 16.7377L13.9172 8.93928C13.2676 8.38774 12.27 8.84942 12.27 9.70157L12.27 25.2984C12.27 26.1506 13.2676 26.6123 13.9172 26.0607L23.1022 18.2623Z" fill="#FF2B77"/>
+</g>
+<defs>
+<filter id="filter0_d_2_460" x="0.27002" y="0.699646" width="35.1849" height="41.6007" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.168627 0 0 0 0 0.466667 0 0 0 0.7 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_460"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_460" result="shape"/>
+</filter>
+</defs>
+</svg>
+
+<svg id="blue-arrow" width="36" height="43" viewBox="4 6 36 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_2_459)">
+<path d="M23.0728 18.2695C23.5546 17.8696 23.5546 17.1304 23.0728 16.7305L13.6386 8.90068C12.9869 8.35982 12 8.82329 12 9.67019L12 25.3298C12 26.1767 12.987 26.6402 13.6386 26.0993L23.0728 18.2695Z" fill="#0A6FFF"/>
+</g>
+<defs>
+<filter id="filter0_d_2_459" x="0" y="0.668274" width="35.4342" height="41.6635" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.164706 0 0 0 0 0.027451 0 0 0 0 0.996078 0 0 0 0.7 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_459"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_459" result="shape"/>
+</filter>
+</defs>
+</svg>
+
 <symbol id="icon-Group-1" viewBox="0 0 23 32">
 <path fill="#0a6fff" style="fill: var(--color5, #0a6fff)" d="M17.17 13.596c0.359-0.298 0.359-0.848 0-1.145l-7.021-5.827c-0.485-0.402-1.219-0.058-1.219 0.573v11.654c0 0.63 0.735 0.975 1.219 0.573l7.021-5.827z"></path>
-</symbol>
-<symbol id="arrow-down" viewBox="0 -5 50 32">
-<path fill="none" stroke="#1556ee" style="stroke: var(--color6, #1556ee)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="7.1111" d="M46.222 3.556l-21.333 21.333-21.333-21.333"></path>
 </symbol>
 
 <symbol id="vector1" width="4" height="308" viewBox="0 0 4 308" fill="none" xmlns="http://www.w3.org/2000/svg">
