@@ -30,14 +30,15 @@ body {
     position: relative;
     width: 390px;
     box-sizing: border-box;
-    /* outline-style: solid; */
+    outline-style: solid;
     border-style: outset;
     border-width: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 28px;
+    padding: 0 28px;    
 }
 .header {
+    position: relative;
     padding-top: 37px;
 }
 .decoration {
@@ -138,7 +139,6 @@ body {
 }
 
 .menu__button {
-    position: relative;
     width: 32px;
     height: 8px;
     border-top: 1px solid white;
@@ -151,22 +151,41 @@ body {
     list-style: none;
     padding: 0;
     margin: 10px 0 0;
-    top: 15px;
-    right: -27px;
-    background-color: rgba(0, 0, 0, 0.9);
+    top: 25px;
+    right: 0;
     border-radius: 10px;
     z-index: 10;
 }
 
 .menu__items li {
+    position: relative;
+    box-sizing: border-box;
+    height: 60px;
     border: 1px solid #09A2FE;
-    border-radius: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.95);
     box-shadow: 0px -2px 23px rgba(42, 7, 254, 0.7);
     margin-bottom: 10px;
     text-align: center;
-    padding: 5px 20px;
+    padding: 19px 66px 17px 43px;
 }
-
+.menu__items li::after {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(./svg/Bold-Outline.svg);
+    background-repeat: no-repeat;
+    margin-left: 13px;
+}
+.menu__items li:hover,
+.menu__items li:focus {
+    color: black;
+    box-shadow: none;
+    background-image: linear-gradient(140.6deg, #FFFFFF -27.18%, #DEDEDE 126.06%);
+}
 .menu__button:hover,
 .menu__button:focus {
     border-top: 1px solid #09A2FE;
@@ -222,6 +241,7 @@ body {
     line-height: 1.4;
     color: #E9E9E9;
     margin-bottom: 40px;
+    width: 246px;
 }
 
 .hero__button {
@@ -833,4 +853,85 @@ body {
         rgba(196, 196, 196, 0) 100%
     );
     opacity: 0.68;
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        padding: 0 135px;
+    }
+    .menu {
+        position: relative;
+        margin-bottom: 124px;
+    }
+    .menu__items {
+        display: flex;
+        top: -22px;
+        right: 0;
+        margin-top: 5px;
+    }
+    .menu__items li {
+        border-width: 0;
+        box-shadow: none;
+        margin-left: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.16;
+        color: #F3F3F3;
+    }
+
+    .menu__button {
+        width: 0;
+        height: 0;
+        border-width: 0;
+    }
+    .menu__button:hover .menu__items,
+    .menu__button:focus .menu__items {
+        display: flex;
+    }
+    .hero {
+        text-align: start;
+    }
+    .hero__name {
+        font-size: 19px;
+    }
+    .hero__title {
+        font-size: 96px;
+        /* line-height: 1.93px; */
+        margin: 32px 0;
+        width: 640px;
+    }
+    .hero__text {
+        font-size: 25px;
+        font-weight: 400;
+        color: rgba(233, 233, 233, 1);
+        width: 559px;
+        margin-bottom: 94px;
+    }
+    .hero__button {
+        box-sizing: border-box;
+        width: 220px;
+        height: 68px;
+        font-size: 18px;
+        padding: 23px 30px;
+    }
+    .hero__arrow {
+        margin-right: 0;
+    }
+    .hero__decoration {
+        top: 0;
+        left: 732px;
+        background-image: url(./svg/group1desktop.svg);
+        background-repeat: no-repeat;
+    }
+    .decoration {
+        top: 0;
+        background-image: url(./svg/vector1desktop.svg), url(./svg/a.svg), url(./svg/b.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position-x: 0, 0, 600px;
+        background-position-y: 0, 0, 400px;
+    }
+    .decoration::after {
+        background-color: rgba(0, 0, 0, 0.3);
+
+    }
 }
