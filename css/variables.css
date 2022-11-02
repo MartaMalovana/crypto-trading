@@ -1,0 +1,105 @@
+:root {
+    /* Colors*/
+    --black-color: rgba(0, 0, 0, 1);
+    --black-color1: rgba(0, 0, 0, 0.7);
+    --black-color2: rgba(0, 0, 0, 0.95);
+    --black-color3: rgba(10, 10, 13, 1);
+    --black-color4: rgba(0, 0, 0, 0.3);
+    --white-color: rgba(255, 255, 255, 1);
+    --blue-color1: rgba(106, 139, 255, 1);
+    --blue-color2: rgba(9, 162, 254, 1);
+    --blue-color3: rgba(42, 7, 254, 0.7);
+    --blue-color4: rgba(43, 64, 191, 1);
+    --blue-color5: rgba(12, 98, 238, 1);
+    --blue-color6: rgba(123, 147, 255, 1);
+    --pink-color1: rgba(166, 106, 255, 1);
+    --pink-color2: rgba(203, 118, 255, 0.5);
+    --grey-color1: rgba(170, 170, 170, 1);
+    --grey-color2: rgba(233, 233, 233, 1);
+    --grey-color3: rgba(212, 212, 212, 1);
+    --grey-color4: rgba(183, 182, 187, 1);
+    --grey-color5: rgba(177, 178, 186, 1);
+    --grey-color6: rgba(47, 47, 45, 0.8);
+    --grey-color7: rgba(243, 243, 243, 1);
+    --grey-color8: rgba(146, 146, 146, 1);
+    --green-color1: rgba(68, 250, 206, 1);
+    --green-color2: rgba(0, 255, 163, 1);
+    --green-color3: rgba(0, 207, 108, 1);
+
+    /* Font sizes */
+    --font-size1: 25px;
+    --font-size2: 14px;
+    --font-size3: 52px;
+    --font-size4: 18px;
+    --font-size5: 15px;
+    --font-size6: 44px;
+    --font-size7: 24px;
+    --font-size8: 16px;
+    --font-size9: 35px;
+    --font-size10: 36px;
+    --font-size11: 30px;
+    --font-size12: 19px;
+    --font-size13: 96px;
+    --font-size14: 40px;
+
+    /* Font weights*/
+    --font-weight1: 400;
+    --font-weight2: 500;
+    --font-weight3: 600;
+
+    /* Gradients */
+    --gradient1: radial-gradient(50% 50% at 50% 50%,
+            rgba(255, 255, 255, 0.09) 0%,
+            rgba(196, 196, 196, 0) 100%);
+    --gradient2: linear-gradient(180deg,
+            rgba(0, 65, 218, 0.115) 0%,
+            rgba(40, 0, 153, 0.115) 91.72%);
+    --gradient3: linear-gradient(140.6deg,
+            #FFFFFF -27.18%,
+            #DEDEDE 126.06%);
+    --gradient4: linear-gradient(to right,
+            #73B5FF 50%,
+            #CB76FF 100%);
+    --gradient5: linear-gradient(140.6deg,
+            #3E6FF9 -27.18%,
+            #3E53F8 126.06%);
+    --gradient6: linear-gradient(to bottom,
+            rgba(42, 7, 254, 0.5),
+            rgba(56, 116, 255, 0.9),
+            rgba(42, 7, 254, 0.5));
+    --gradient7: linear-gradient(to right,
+            rgba(42, 7, 254, 0.5),
+            rgba(56, 116, 255, 0.9),
+            rgba(42, 7, 254, 0.5));
+    --gradient8: linear-gradient(to right,
+            #487FFF,
+            #73B5FF);
+    --gradient9: radial-gradient(circle at top right,
+            rgba(12, 8, 28, 0.95),
+            rgba(10, 10, 8, 0.95));
+    --gradient10: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.4),
+            rgba(238, 237, 237, 0.2));
+    --gradient11: linear-gradient(to bottom,
+            rgba(183, 182, 187, 1),
+            rgba(94, 89, 113, 1));
+    --gradient12: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(241, 241, 241, 1));
+    --gradient13: linear-gradient(to right,
+            rgba(183, 182, 187, 1),
+            rgba(94, 89, 113, 1));
+    --gradient14: linear-gradient(to bottom,
+            rgba(66, 69, 73, 1),
+            rgba(34, 34, 34, 1));
+    --gradient15: linear-gradient(0deg,
+            rgba(87, 87, 87, 0.23),
+            rgba(87, 87, 87, 0.23));
+
+    /* Shadows*/
+    --shadow1: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --shadow2: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    --shadow3: 0px -2px 23px rgba(42, 7, 254, 0.8);
+    --shadow4: 0px -2px 23px rgba(7, 254, 224, 0.8);
+    --shadow5: inset 0px 4px 4px rgba(0, 0, 0, 0.35);
+}
