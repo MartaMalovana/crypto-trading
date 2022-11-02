@@ -14,19 +14,24 @@ body {
     margin: 0;
     list-style: none;
 }
-.container {
-    position: relative;
-    width: 390px;
-    box-sizing: border-box;
+.main-container {
+    width: 390px; 
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    box-sizing: border-box;
     padding: 0 28px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
-    .container {
+    .main-container {
         width: 1440px;
+    }
+    .container {
         padding: 0 135px;
     }
 }
