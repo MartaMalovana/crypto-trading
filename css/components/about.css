@@ -137,10 +137,20 @@
     padding: 0;
 }
 
-.about__level1 svg {
-    width: 36px;
+.about__arr1,
+.about__arr2 {
+    width: 23px;
     height: 43px;
-    margin-right: 19px;
+    margin-right: 13px;
+    background-position: -5px 0;
+}
+
+.about__arr1 {
+    background-image: url(../svg/arrows/pink-arrow.svg#pink-arrow);
+}
+
+.about__arr2 {
+    background-image: url(../svg/arrows/blue-arrow.svg#blue-arrow);
 }
 
 .about__level1 li {
@@ -156,7 +166,7 @@
 .about .hero__button {
     justify-content: center;
     font-size: var(--font-size16);
-    margin: 0 0 100px
+    margin: 0 0 100px;
 }
 
 /* Shadows */

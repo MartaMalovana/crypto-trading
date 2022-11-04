@@ -13,14 +13,16 @@
       <div class="container">
         <div class="menu">
           <span class="menu__logo">C</span>
-          <div class="menu__button"></div>
-          <ul class="menu__items menu__items--hide">
-            <li class="menu_item">Activities</li>
-            <li class="menu_item">Technology</li>
-            <li class="menu_item">R&D</li>
-            <li class="menu_item">Community</li>
-            <li class="menu_item">Career</li>
-          </ul>
+          <nav>
+            <button type="button" class="menu__button" aria-label="menu"></button>
+            <ul class="menu__items menu__items--hide" aria-label="menu list">
+              <li class="menu_item"><a><span>Activities</span></a></li>
+              <li class="menu_item"><a><span>Technology</span></a></li>
+              <li class="menu_item"><a><span>R&D</span></a></li>
+              <li class="menu_item"><a><span>Community</span></a></li>
+              <li class="menu_item"><a><span>Career</span></a></li>
+            </ul>
+          </nav>
         </div>
         <div class="decoration"></div>
         <div class="decoration1">
@@ -42,14 +44,10 @@
             Advanced crypto algorithmic trading and efficient cross- chain
             execution, at scale.
           </p>
-          <div class="hero__button">
+          <button class="hero__button" type="button" aria-label="learn more">
             Learn More
-            <button type="button" class="hero__arrow" aria-label="learn more">
-              <svg aria-label="arrow down">
-                <use href="./css/svg/arrows/arr.svg#a"></use>
-              </svg>
-            </button>
-          </div>
+            <div  class="hero__arrow" ></div>
+          </button>
           <div class="decoration10"></div>
           <div class="hero__decoration"></div>
         </div>
@@ -91,13 +89,7 @@
               <p>Level 1</p>
               <ul>
                 <li>
-                  <div>
-                    <svg aria-label="pink arrow">
-                      <use
-                        href="./css/svg/arrows/pink-arrow.svg#pink-arrow"
-                      ></use>
-                    </svg>
-                  </div>
+                  <div class="about__arr1"></div>
                   <span
                     >Deploy a multi-legged futures strategy by simultaneously
                     placing orders to buy and sell from the same order
@@ -105,13 +97,7 @@
                   >
                 </li>
                 <li>
-                  <div>
-                    <svg aria-label="blue arrow">
-                      <use
-                        href="./css/svg/arrows/blue-arrow.svg#blue-arrow"
-                      ></use>
-                    </svg>
-                  </div>
+                  <div class="about__arr2"></div>
                   <span
                     >Place and manage orders based on the Level 2 order book,
                     which provides a live display of all bids and offers waiting
@@ -119,7 +105,7 @@
                   >
                 </li>
               </ul>
-              <div class="hero__button">Start Now</div>
+              <button class="hero__button" type="button">Start Now</button>
             </div>
           </div>
           <div class="decoration5"></div>
@@ -183,9 +169,7 @@
                   <p>API</p>
                 </div>
               </div>
-              <svg aria-label="emblem">
-                <use href="./css/svg/icon1.svg#icon"></use>
-              </svg>
+              <div class="scheme__emblem"></div>
               <p>
                 Easy to use digital service and exclusive personal service for
                 our active traders

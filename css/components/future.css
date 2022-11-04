@@ -193,10 +193,12 @@
     padding: 24px 20px;
 }
 
-.scheme__box1--icon svg {
+.scheme__emblem {
     width: 65px;
     height: 68px;
     margin-bottom: 23px;
+    background-image: url(../svg/icon1.svg#icon);
+    background-size: auto;
 }
 
 .scheme__box1--icon .scheme__box7 {
